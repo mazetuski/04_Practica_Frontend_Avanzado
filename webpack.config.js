@@ -2,6 +2,7 @@ var path = require('path');
 var merge = require('webpack-merge');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 // Create new page function
 var page = function ({ title, chunks, template, filename }) {
@@ -22,6 +23,7 @@ var commonConfig = {
     filename: '[name][hash].js'
   },
   plugins: [
+    new Dotenv(),
     page({
       title: 'Articles',
       chunks: ['articles'],
