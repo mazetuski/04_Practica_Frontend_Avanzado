@@ -1,3 +1,4 @@
+/* eslint-disable */
 var path = require('path');
 var merge = require('webpack-merge');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -5,13 +6,13 @@ var CleanWebpackPlugin = require('clean-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
 // Create new page function
-var page = function ({ title, chunks, template, filename }) {
+var page = function ({title, chunks, template, filename}) {
   return new HtmlWebpackPlugin({
     title: title,
     chunks: chunks,
     template: template,
     filename: filename
-  })
+  });
 };
 
 var commonConfig = {
@@ -33,9 +34,7 @@ var commonConfig = {
   ]
 };
 
-const devConfig = {
-
-};
+const devConfig = {};
 
 const prodConfig = {
   plugins: [
@@ -44,6 +43,6 @@ const prodConfig = {
 };
 
 module.exports = (env, argv) =>
-  argv.mode === 'development' ?
-      commonConfig :
-      merge(commonConfig, prodConfig);
+    argv.mode === 'development' ?
+        commonConfig :
+        merge(commonConfig, prodConfig);
