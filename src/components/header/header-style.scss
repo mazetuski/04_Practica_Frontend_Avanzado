@@ -7,24 +7,44 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 500;
+  background-color: $white;
 
   @include for-tablet-landscape {
-    display: none;
+    padding: 0 5%;
+    box-sizing: border-box;
+    border-bottom: 1px solid $grey;
   }
 
-  ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    li {
-      text-decoration: none;
-      padding: 0 $general-padding;
-      display: none;
+  @include for-laptop{
+    padding: 0 15%;
+  }
 
-      @include for-tablet-landscape {
-        display: inline-block;
-        vertical-align: middle;
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      li {
+        text-decoration: none;
+        padding: 0 $general-padding;
+        display: none;
+
       }
+      @include for-tablet-landscape {
+        li {
+          display: inline-block;
+          vertical-align: middle;
+        }
+        display: block;
+        text-align: right;
+      }
+
+    }
+    @include for-tablet-landscape {
+      flex: 0 0 70%;
     }
   }
 
@@ -38,19 +58,32 @@ header {
     }
   }
 
-  #title-header{
+  #title-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 $general-padding/2;
+    box-sizing: border-box;
+    border-bottom: 1px solid $grey;
+
+    @include for-tablet-landscape {
+      flex: 0 0 25%;
+      padding: 0;
+      border-bottom: none;
+    }
   }
 
   &.menu-open {
     flex-direction: column;
-    nav ul{
+    border-bottom: 1px solid $grey;
+    nav ul {
       flex-direction: column;
-       li {
+      padding: $general-padding/2 0;
+      text-align: center;
+      li {
         display: block;
+        padding: $general-padding/3;
       }
     }
   }

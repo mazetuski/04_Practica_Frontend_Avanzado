@@ -3,7 +3,7 @@
 @import "layout";
 
 body{
-  width: 95%;
+  width: 100%;
   overflow: hidden;
   margin: 0 auto;
 
@@ -11,11 +11,19 @@ body{
     max-width: 100%;
   }
 
-  @include for-tablet-landscape{
-    width: 90%;
-  }
+  main{
+    margin: 0 auto;
+    padding: 0 $general-padding;
+    padding-top: $general-padding * 4;
 
-  @include for-laptop{
-    width: 70%;
+    @include for-tablet-landscape{
+      width: 90%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    @include for-laptop{
+      width: 70%;
+    }
   }
 }
