@@ -1,0 +1,21 @@
+@import 'settings';
+
+// Responsive medias
+
+@mixin for-tablet-portrait {
+  @media only screen and (min-width: $breakpoint-tablet-portrait){
+    @content;
+  }
+}
+
+@mixin for-tablet-landscape{
+  @media only screen and (min-width: $breakpoint-tablet-landscape){
+    @content;
+  }
+}
+
+@mixin for-laptop{
+  @media only screen and (min-width: $breakpoint-laptop){
+    @content;
+  }
+}

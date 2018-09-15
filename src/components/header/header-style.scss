@@ -1,0 +1,57 @@
+@import "~styles/settings";
+@import "~styles/layout";
+
+header {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  @include for-tablet-landscape {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    li {
+      text-decoration: none;
+      padding: 0 $general-padding;
+      display: none;
+
+      @include for-tablet-landscape {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  #hamburguer {
+    img {
+      width: $icon-size;
+      height: $icon-size;
+    }
+    @include for-tablet-landscape {
+      display: none;
+    }
+  }
+
+  #title-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &.menu-open {
+    flex-direction: column;
+    nav ul{
+      flex-direction: column;
+       li {
+        display: block;
+      }
+    }
+  }
+}

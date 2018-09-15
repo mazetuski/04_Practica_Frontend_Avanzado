@@ -55,13 +55,26 @@ var commonConfig = {
             presets: ['@babel/preset-env']
           }
         }
+      },
+      {
+        test: /\.(gif|png|jpe?g|svg)$/i,
+        use: [
+          'file-loader',
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              name: 'assets/[name].[hash].[ext]'
+            },
+          },
+        ],
       }
     ]
   },
   resolve: {
     alias: {
       components: path.resolve(__dirname, 'src', 'components'),
-      styles: path.resolve(__dirname, 'src', 'styles')
+      styles: path.resolve(__dirname, 'src', 'styles'),
+      assets: path.resolve(__dirname, 'src', 'assets')
     }
   }
 };
@@ -76,7 +89,11 @@ const devConfig = {
         "sass-loader" // compiles Sass to CSS, using Node Sass by default
       ]
     }]
-  }
+  },
+  devServer: {
+    overlay: true,
+    port: 8000
+  },
 };
 
 const prodConfig = {
