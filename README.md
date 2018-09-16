@@ -7,6 +7,12 @@ npm install
 npm build
 ```
 
+- You need to deploy json-server with the database
+
+```
+npm run start:db
+```
+
 ## Development
 
 ```
