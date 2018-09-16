@@ -1,15 +1,15 @@
 {
   "articles": [
-    { "id": 1, "title": "Titulo", "text": "Texto", "desc": "Descripción", "image": "imagen", "author": "typicode" },
-    { "id": 2, "title": "Titulo", "text": "Texto", "desc": "Descripción", "image": "imagen", "author": "typicode" },
+    { "id": 1, "title": "Titulo", "text": "Texto", "desc": "Descripción", "imageLaptop": "imagen","imageTablet": "imagen", "imageMobile": "imagen", "author": "typicode" },
+    { "id": 2, "title": "Titulo", "text": "Texto", "desc": "Descripción", "imageLaptop": "imagen","imageTablet": "imagen", "imageMobile": "imagen", "author": "typicode" },
     { "id": 3, "title": "Titulo", "text": "Texto", "desc": "Descripción", "video": "video", "author": "typicode" },
-    { "id": 4, "title": "Titulo", "text": "Texto", "desc": "Descripción", "image": "imagen", "author": "typicode" },
-    { "id": 5, "title": "Titulo", "text": "Texto", "desc": "Descripción", "image": "imagen", "author": "typicode" },
-    { "id": 6, "title": "Titulo", "text": "Texto", "desc": "Descripción", "image": "imagen", "author": "typicode" },
-    { "id": 7, "title": "Titulo", "text": "Texto", "desc": "Descripción", "image": "imagen", "author": "typicode" },
-    { "id": 8, "title": "Titulo", "text": "Texto", "desc": "Descripción", "image": "imagen", "author": "typicode" },
-    { "id": 9, "title": "Titulo", "text": "Texto", "desc": "Descripción", "image": "imagen", "author": "typicode" },
-    { "id": 10, "title": "Titulo", "text": "Texto", "desc": "Descripción", "image": "imagen", "author": "typicode" }
+    { "id": 4, "title": "Titulo", "text": "Texto", "desc": "Descripción", "imageLaptop": "imagen","imageTablet": "imagen", "imageMobile": "imagen", "author": "typicode" },
+    { "id": 5, "title": "Titulo", "text": "Texto", "desc": "Descripción", "imageLaptop": "imagen","imageTablet": "imagen", "imageMobile": "imagen", "author": "typicode" },
+    { "id": 6, "title": "Titulo", "text": "Texto", "desc": "Descripción", "imageLaptop": "imagen","imageTablet": "imagen", "imageMobile": "imagen", "author": "typicode" },
+    { "id": 7, "title": "Titulo", "text": "Texto", "desc": "Descripción", "imageLaptop": "imagen","imageTablet": "imagen", "imageMobile": "imagen", "author": "typicode" },
+    { "id": 8, "title": "Titulo", "text": "Texto", "desc": "Descripción", "imageLaptop": "imagen","imageTablet": "imagen", "imageMobile": "imagen", "author": "typicode" },
+    { "id": 9, "title": "Titulo", "text": "Texto", "desc": "Descripción", "imageLaptop": "imagen","imageTablet": "imagen", "imageMobile": "imagen", "author": "typicode" },
+    { "id": 10, "title": "Titulo", "text": "Texto", "desc": "Descripción", "imageLaptop": "imagen","imageTablet": "imagen", "imageMobile": "imagen", "author": "typicode" }
   ],
   "comments": [
     { "id": 1, "article": 1, "text": "comentario" },
