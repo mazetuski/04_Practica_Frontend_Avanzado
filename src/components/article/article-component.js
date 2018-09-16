@@ -2,19 +2,24 @@
 import { createImageResponsive } from 'components/image/image-component';
 
 const getImageOrVideoArticle = (articleData) => {
-  if (!articleData.video && !articleData.image) {
+  if (!articleData.video && !articleData.imageMobile) {
     return;
   }
   if (articleData.video) {
-    return 'video';
+    // TODO: ADD VIDEO
+    return;
   }
   return createImageResponsive(articleData.imageLaptop, articleData.imageTablet, articleData.imageMobile, articleData.title);
 };
 
 export const createArticle = (articleData) => {
   const article = document.createElement('div');
-  let html = `<h4>${articleData.title}</h4>`;
-  html += getImageOrVideoArticle(articleData);
+  article.classList.add('article');
+  let html = `<div>${getImageOrVideoArticle(articleData)}</div>`;
+  html += `<div>
+        <h4>${articleData.title}</h4>
+        <p>${articleData.text}</p>
+    </div>`;
   article.innerHTML = html;
   return article;
 };

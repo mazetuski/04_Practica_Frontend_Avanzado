@@ -1,0 +1,26 @@
+@import "~styles/settings";
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: $general-margin*1.5 0;
+
+  h4 {
+    margin: 0;
+  }
+
+  & > div {
+    flex: 0 0 100%;
+  }
+  @include for-tablet-landscape {
+    & > div:nth-child(1) {
+      flex: 0 0 52%;
+    }
+
+    & > div:nth-child(2) {
+      flex: 0 0 46%;
+    }
+  }
+}

@@ -4,7 +4,7 @@
 
 body{
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   margin: 0 auto;
   color: $color-primary;
   display: flex;
@@ -34,6 +34,7 @@ body{
     @include for-laptop{
       flex: 0 0 60%;
     }
+
   }
 
   aside{

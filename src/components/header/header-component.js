@@ -11,7 +11,8 @@ const handleHamburguer = () => {
   img.src = hamburguerImg;
   hamburguer.appendChild(img);
   // handle on click hamburguer
-  hamburguer.addEventListener('click', () => {
+  hamburguer.addEventListener('click', (e) => {
+    e.preventDefault();
     header.classList.toggle('menu-open');
   });
 };

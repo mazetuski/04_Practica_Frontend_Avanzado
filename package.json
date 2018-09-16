@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
     "start:dev": "webpack-dev-server --mode=development",
-    "start:db": "json-server src/data/db.json 3000",
+    "start:db": "json-server src/data/db.json -p 3001",
     "eslint": "eslint"
   },
   "author": "",
