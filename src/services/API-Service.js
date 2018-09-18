@@ -6,11 +6,13 @@ class APIService {
   /**
    * Function for get data from an url
    * @param url
+   * @param limit
+   * @param skip
    * @returns {Promise<*>}
    */
-  async get(url) {
+  async get(url, limit, skip) {
     try {
-      const response = await fetch(this.baseUrl + url);
+      const response = await fetch(this.baseUrl + url + '?_limit=' + limit + '&_page=' + skip);
       if (!response.ok) {
         throw new Error(response.statusText);
       }
@@ -31,7 +33,7 @@ class APIService {
         body: JSON.stringify(data)
       });
 
-      if (!response.ok){
+      if (!response.ok) {
         throw new Error(response.statusText);
       }
       return response.json();

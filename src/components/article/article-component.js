@@ -12,14 +12,16 @@ const getImageOrVideoArticle = (articleData) => {
   return createImageResponsive(articleData.imageLaptop, articleData.imageTablet, articleData.imageMobile, articleData.title);
 };
 
-export const createArticle = (articleData) => {
+export const createArticle = (articleData, text = true, articleClass = 'article') => {
   const article = document.createElement('div');
-  article.classList.add('article');
+  article.classList.add(articleClass);
   let html = `<div>${getImageOrVideoArticle(articleData)}</div>`;
   html += `<div>
-        <h4>${articleData.title}</h4>
-        <p>${articleData.text}</p>
-    </div>`;
+    <h4>${articleData.title}</h4>`;
+    if(text) {
+      html+= `<p>${articleData.text}</p>`;
+    }
+    `</div>`;
   article.innerHTML = html;
   return article;
 };

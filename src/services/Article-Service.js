@@ -6,8 +6,8 @@ class ArticleService {
     this.model = 'articles';
   }
 
-  async getArticles(){
-    return this.APIServiceInstance.get(this.model);
+  async getArticles(limit = 5, skip = 0) {
+    return this.APIServiceInstance.get(this.model, limit, skip);
   }
 
   async getArticle(id){
