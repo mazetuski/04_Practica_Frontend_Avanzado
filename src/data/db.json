@@ -25,7 +25,7 @@
       "title": "Las tecnologías inmersivas nos descubren un mundo insólito, funcional y mucho más divertido",
       "text": "Realidad virtual y realidad aumentada son tecnologías que ya han calado en la opinión pública de un modo generalizado. En cambio, la realidad mixta, que combina las dos anteriores, empieza a ser conocida a medida que evolucionan los...",
       "desc": "Realidad virtual y realidad aumentada son tecnologías que ya han calado en la opinión pública de un modo generalizado. En cambio, la realidad mixta, que combina las dos anteriores, empieza a ser conocida a medida que evolucionan los métodos para crear entornos inmersivos que proporcionan experiencias lúdicas, educativas o profesionales. Las tecnologías inmersivas son el caso general de las realidades aumentada, virtual y mixta (RA, RV y RM, respectivamente) y engloban a otras como la interactividad háptica, las representaciones holográficas, la realidad disminuida o la teleinmersión. En todos los casos, se trata de reforzar una experiencia digital con elementos adicionales, generalmente sensoriales, para que nos sintamos inmersos en dicha experiencia. Los avances en campos como la conectividad, la potencia de procesamiento o la ergonomía irán favoreciendo su integración de un modo transparente y fluido en las experiencias que se quieren recrear. Un ejemplo son los hologramas: en teoría, son la solución perfecta para recrear entornos inmersivos, pero la tecnología no está lista para ello. Igual que 5G, a punto de empezar su despliegue, permitirá llevar las experiencias inmersivas a nuestro día a día gracias a la baja latencia de las conexiones y a su elevado ancho de banda. Por su parte, las soluciones hápticas ponen a nuestro alcance una experiencia sensorial a partir de una recreación virtual: al tocar un piano virtual, la tecnología háptica recrea la sensación táctil de las teclas. En este caso, las complicaciones provienen de la ergonomía en el diseño de elementos como guantes con actuadores mecánicos.",
-      "video": "https://youtu.be/N9eRtXBVZGU",
+      "video": "https://www.youtube.com/embed/N9eRtXBVZGU",
       "author": "Espacio U-Tad"
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": 6,
       "title": "Nunca hemos llegado a tener procesadores de terahercios, y estas son las razones ",
-      "text": "La fibra óptica podría ser una de las tecnologías implicadas en la búsqueda de ese particular procesador de 1 THz, pero atentos, porque también el grafeno quiere revolucionar este campo. Leer más ",
+      "text": "La fibra óptica podría ser una de las tecnologías implicadas en la búsqueda de ese particular procesador de 1 THz, pero atentos, porque también el grafeno quiere revolucionar este campo.",
       "desc": "¿Sabes lo que es mejor que un gigahercio? Un terahercio. El problema, claro, es que conseguir que un procesador logre funcionar a esa frecuencia de reloj no es ni mucho menos trivial. La Ley de Moore se nos queda corta ante una CPU de tal magnitud, y de hecho apenas sí hemos llegado a contar con procesadores de 5 GHz y llevamos años anclados en esos límites. Así pues, ¿es la CPU a un terahercio posible? Lo cierto es que sí. Durante cierto tiempo la batalla por los 'megahercios' dominó la industria del PC. En aquellos tiempos AMD incluso logró ganarle a Intel en la particular carrera por llegar a ofrecer una CPU a 1 GHz, y las mejoras en este ámbito eran constantes. ",
       "imageLaptop": "https://i.blogs.es/8c1fec/cpu/1366_2000.jpg",
       "imageTablet": "https://i.blogs.es/8c1fec/cpu/1024_2000.jpg",

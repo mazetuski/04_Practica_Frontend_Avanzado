@@ -1,13 +1,13 @@
 // Dependencies
 import { createImageResponsive } from 'components/image/image-component';
+import { createVideoIframe } from 'components/video/video-component';
 
 const getImageOrVideoArticle = (articleData) => {
   if (!articleData.video && !articleData.imageMobile) {
     return;
   }
   if (articleData.video) {
-    // TODO: ADD VIDEO
-    return;
+    return createVideoIframe(articleData.video);
   }
   return createImageResponsive(articleData.imageLaptop, articleData.imageTablet, articleData.imageMobile, articleData.title);
 };
