@@ -25,7 +25,8 @@ var page = function ({title, chunks, template, filename}) {
 
 var commonConfig = {
   entry: {
-    articles: ["@babel/polyfill", path.join(__dirname, 'src', 'pages', 'articles', 'index')]
+    articles: ["@babel/polyfill", path.join(__dirname, 'src', 'pages', 'articles', 'index')],
+    article: ["@babel/polyfill", path.join(__dirname, 'src', 'pages', 'article', 'index')]
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -38,6 +39,12 @@ var commonConfig = {
       chunks: ['articles'],
       template: path.join(__dirname, 'src', 'pages', 'articles', 'index.html'),
       filename: path.resolve(__dirname, 'dist', 'index.html')
+    }),
+    page({
+      title: 'Article',
+      chunks: ['article'],
+      template: path.join(__dirname, 'src', 'pages', 'article', 'index.html'),
+      filename: path.resolve(__dirname, 'dist', 'article', 'index.html')
     })
   ],
   module:{
@@ -59,12 +66,14 @@ var commonConfig = {
       {
         test: /\.(gif|png|jpe?g|svg)$/i,
         use: [
-          'file-loader',
           {
-            loader: 'image-webpack-loader',
+            loader: 'file-loader',
             options: {
-              name: 'assets/[name].[hash].[ext]'
-            },
+              name: 'assets/[path][name].[hash].[ext]'
+            }
+          },
+          {
+            loader: 'image-webpack-loader'
           },
         ],
       }

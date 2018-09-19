@@ -1,3 +1,6 @@
 export const createVideoIframe = (url) => {
-  return `<iframe src="${url}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+  return `
+    <div class="iframe-container">
+        <iframe src="${url}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>`;
 };

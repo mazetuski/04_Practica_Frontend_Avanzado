@@ -4,3 +4,4 @@ import { updateArticles } from 'components/articles/articles-component';
 
 initializeHeader();
 updateArticles();
+updateArticles(true);

@@ -12,6 +12,18 @@
 .article {
   margin: $general-margin*1.5 0;
 
+  .article-footer{
+    color: $grey-dark;
+    .icon{
+      width: 1.3rem;
+      vertical-align: -0.1rem;
+    }
+  }
+
+  a{
+    color: $color-primary;
+  }
+
   h4 {
     margin: 0;
   }
