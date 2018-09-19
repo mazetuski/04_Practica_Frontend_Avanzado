@@ -7,6 +7,16 @@
   align-items: center;
   padding-bottom: $general-padding;
   border-bottom: 1px solid $grey;
+  h4 {
+    margin: 0;
+    a{
+      text-decoration: none;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 .article {
@@ -22,10 +32,6 @@
 
   a{
     color: $color-primary;
-  }
-
-  h4 {
-    margin: 0;
   }
 
   & > div {
@@ -61,7 +67,6 @@
 
   h4{
     font-size: 1rem;
-    margin: 0;
   }
 
   div{

@@ -9,7 +9,7 @@ export const createArticle = (articleData, text = true, articleClass = 'article'
   article.classList.add(articleClass);
   const formattedDate = getFormattedDatePost(articleData.createdAt);
   let html = `<div><a href="${urlDetail}">${getImageOrVideoArticle(articleData)}</a></div>`;
-  html += `<div><h4>${articleData.title}</h4>`;
+  html += `<div><h4><a href="${urlDetail}">${articleData.title}</a></h4>`;
   if (text) {
     html += `<p>${articleData.text}... <a href="${urlDetail}">LEER MÁS</a></p>
              <p class="article-footer">${articleData.author} - ${formattedDate} - <a href="${urlDetail}#comments"><img class="icon" src="${commentImage}" alt="Comentarios"></a></p>`;
