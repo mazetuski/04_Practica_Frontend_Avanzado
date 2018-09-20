@@ -8,11 +8,17 @@ class APIService {
    * @param url
    * @param limit
    * @param skip
+   * @param sortField
+   * @param order
    * @returns {Promise<*>}
    */
-  async get(url, limit, skip) {
+  async get(url, limit, skip, sortField = null, order = 'asc') {
     try {
-      const response = await fetch(this.baseUrl + url + '?_limit=' + limit + '&_page=' + skip);
+      let urlGet = this.baseUrl + url + '?_limit=' + limit + '&_page=' + skip;
+      if (sortField) {
+        urlGet += `&_sort=${sortField}&_order=${order}`;
+      }
+      const response = await fetch(urlGet);
       if (!response.ok) {
         throw new Error(response.statusText);
       }

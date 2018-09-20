@@ -71,3 +71,35 @@ export const getImageOrVideoArticle = (articleData) => {
   }
   return createImageResponsive(articleData.imageLaptop, articleData.imageTablet, articleData.imageMobile, articleData.title);
 };
+
+/**
+ * Polyfill for reportValidity
+ * @param form
+ */
+export const reportValidity = (form) => {
+  if (HTMLFormElement.prototype.reportValidity) {
+    form.reportValidity();
+  } else {
+    HTMLFormElement.prototype.reportValidity = () => {
+      if (form.checkValidity()) return true;
+      const btn = document.createElement('button');
+      form.appendChild(btn);
+      btn.click();
+      form.removeChild(btn);
+      return false;
+    };
+  }
+};
+
+/**
+ * Function for get formdata from inputs
+ * @param formInputs
+ */
+export const getFormData = (formInputs) => {
+  const formData = {};
+  for (let i = 0; i < formInputs.length; i += 1) {
+    const input = formInputs[i];
+    formData[input.name] = input.value;
+  }
+  return formData;
+};

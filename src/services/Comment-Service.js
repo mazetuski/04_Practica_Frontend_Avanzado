@@ -7,8 +7,12 @@ class CommentService {
     this.modelArticle = 'articles';
   }
 
-  async getCommentByArticle(idArticle, limit = 5, skip = 0) {
-    return this.APIServiceInstance.get(`${this.modelArticle}/${idArticle}/${this.model}`, limit, skip);
+  async getCommentByArticle(idArticle, limit = 10, skip = 0) {
+    return this.APIServiceInstance.get(`${this.modelArticle}/${idArticle}/${this.model}`, limit, skip, 'id');
+  }
+
+  async post(data) {
+    return this.APIServiceInstance.post(this.model, data);
   }
 }
 

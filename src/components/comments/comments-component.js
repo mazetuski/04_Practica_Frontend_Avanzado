@@ -6,6 +6,8 @@ const CommentServiceInstance = new CommentService();
 
 export const updateComments = (idArticle) => {
   const commentsWrapper = document.querySelector('#comments-wrapper');
+  // reset html
+  commentsWrapper.innerHTML = '';
   const numberComments = document.querySelector('#number-comments');
   CommentServiceInstance.getCommentByArticle(idArticle).then((commentsData) => {
     numberComments.innerHTML = commentsData.length;
