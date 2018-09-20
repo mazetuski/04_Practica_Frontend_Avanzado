@@ -1,0 +1,25 @@
+@import "~styles/layout";
+
+.comment{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: $general-padding;
+  border: 1px solid $grey;
+  margin: $general-margin 0;
+
+  div{
+    flex: 0 0 100%;
+  }
+
+  @include for-tablet-landscape {
+
+    div:nth-child(1) {
+      flex: 0 0 20%;
+    }
+
+    div:nth-child(2) {
+      flex: 0 0 79%;
+    }
+  }
+}

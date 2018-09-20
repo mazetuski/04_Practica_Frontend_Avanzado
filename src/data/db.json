@@ -112,18 +112,23 @@
   "comments": [
     {
       "id": 1,
-      "article": 1,
-      "text": "comentario"
+      "articleId": 1,
+      "comment": "Edi Gathegi, en Startup creo que de lo mejor que he visto en interpretación, y no entiendo como no esta nominada en nada Ozark, es buena muy buena. Amazon rebuscando tiene series muy buenas. Goliath, Bosch, Mºmafia, Startup, etc...",
+      "author": "Anónimo"
     },
     {
       "id": 2,
-      "article": 1,
-      "text": "comentario"
+      "articleId": 1,
+      "comment": "Pues vaya nivelazo que hay en el streaming como para que The Alienist no se haya llevado nada.",
+      "author": "Cristian",
+      "userImage": "https://banner2.kisspng.com/20180402/ocq/kisspng-pocket-mortys-morty-smith-rick-sanchez-facebook-dr-rick-and-morty-5ac21fec8543b6.2910185615226715965459.jpg"
     },
     {
       "id": 3,
-      "article": 2,
-      "text": "comentario"
+      "articleId": 2,
+      "comment": "Yo creo que es por la plataforma de Netflix, que esta plataforma al ser gratis le quita mucho partido a esas plataformas y sinceramente a mi me encantaría que no la quitasen. #ripdede",
+      "author": "Antonio",
+      "userImage": "https://vignette.wikia.nocookie.net/deathbattlefanon/images/0/08/2816096-thumbnail_1992608045960713568.jpg/revision/latest?cb=20170828123523"
     }
   ]
 }

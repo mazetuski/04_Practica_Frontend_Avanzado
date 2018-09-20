@@ -1,6 +1,8 @@
 import {createImageResponsive} from 'components/image/image-component';
 import {createVideoIframe} from 'components/video/video-component';
 
+export const urlImgDefault = 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/18/18f150c5a9da43bdd3e40d1b193a9f74328abba2_full.jpg';
+
 /**
  * Function for append components in a container
  * @param elems

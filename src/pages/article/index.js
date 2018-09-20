@@ -4,6 +4,7 @@ import queryString from 'query-string';
 import ArticleService from 'services/Article-Service';
 import { updateArticle } from 'components/article-detail/article-detail-component';
 import { updateArticles } from 'components/articles/articles-component';
+import { updateComments } from 'components/comments/comments-component';
 
 const ArticleServiceInstance = new ArticleService();
 const query = queryString.parse(window.location.search);
@@ -16,3 +17,4 @@ if(articleId) {
 
 initializeHeader();
 updateArticles(true);
+updateComments(articleId);
