@@ -14,9 +14,15 @@ class APIService {
    */
   async get(url, limit, skip, sortField = null, order = 'asc') {
     try {
-      let urlGet = this.baseUrl + url + '?_limit=' + limit + '&_page=' + skip;
+      let urlGet = this.baseUrl + url;
+      let symbol = '?';
+      if (limit) {
+        urlGet += `?_limit=${limit}&_page=${skip}`;
+        symbol = '&';
+      }
+      console.log(urlGet);
       if (sortField) {
-        urlGet += `&_sort=${sortField}&_order=${order}`;
+        urlGet += `${symbol}_sort=${sortField}&_order=${order}`;
       }
       const response = await fetch(urlGet);
       if (!response.ok) {
