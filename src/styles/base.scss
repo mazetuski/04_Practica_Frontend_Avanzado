@@ -53,6 +53,8 @@ body{
 
   input{
     padding: .3rem 0;
+    border: 1px solid #c0c0c0;
+    background: transparent;
   }
 
   input[type=submit]{
@@ -111,11 +113,6 @@ body{
     box-sizing: border-box;
     order: 0;
 
-    input{
-      border: 1px solid #c0c0c0;
-      background: transparent;
-    }
-
     ul{
       padding: 0;
       li{
@@ -162,22 +159,5 @@ body{
       padding-left: $general-padding;
       box-sizing: border-box;
     }
-  }
-
-  .input-container{
-    width: 100%;
-
-    label, input, textarea{
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    input, textarea{
-      margin: $general-margin/3 0 $general-margin/1.5 0;
-    }
-  }
-
-  #comment-form{
-    margin-bottom: $general-margin*2;
   }
 }

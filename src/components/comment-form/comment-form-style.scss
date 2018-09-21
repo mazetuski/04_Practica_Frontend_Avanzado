@@ -1,0 +1,42 @@
+@import "~styles/layout";
+@import "~styles/settings";
+
+#comment-form{
+  margin-bottom: $general-margin*2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .input-container, .textarea-container{
+
+    label, input, textarea{
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    input, textarea{
+      margin: $general-margin/3 0 $general-margin/1.5 0;
+    }
+  }
+
+  .textarea-container {
+    flex: 0 0 100%;
+  }
+
+  .input-container {
+    flex: 0 0 100%;
+    @include for-tablet-landscape{
+      flex: 0 0 31%;
+    }
+  }
+
+  .comment-input{
+    &.error{
+      box-shadow: 0 0 5px $red;
+    }
+
+    &.focus{
+      box-shadow: 0 0 1px $color-primary;
+    }
+  }
+}

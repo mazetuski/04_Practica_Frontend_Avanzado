@@ -10,7 +10,7 @@ export const createComment = (commentData) => {
     <div class="comment">
         <div class="profile-wrapper">
             <img src="${imgUrl}" alt="${commentData.author}">
-            <p>${commentData.author}</p>
+            <p>${commentData.author} ${commentData.lastname}</p>
         </div>
         <div>
             <p>${commentData.comment}</p>

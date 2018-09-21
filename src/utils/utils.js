@@ -1,5 +1,11 @@
+// Dependencies
 import {createImageResponsive} from 'components/image/image-component';
 import {createVideoIframe} from 'components/video/video-component';
+
+// REGEXP
+const EMAIL_REGEXP = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+const TEXTAREA_REGEXP = /^(?:\b\w+\b[\s\r\n]*){0,499}$/;
+
 
 export const urlImgDefault = 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/18/18f150c5a9da43bdd3e40d1b193a9f74328abba2_full.jpg';
 
@@ -103,3 +109,45 @@ export const getFormData = (formInputs) => {
   }
   return formData;
 };
+
+/**
+ * Method for test regexp
+ * @param string
+ * @param regexp
+ * @returns {boolean}
+ */
+export const check = (string, regexp) => {
+  return regexp.test(string);
+};
+
+/**
+ * Check comment validity
+ * @returns {boolean}
+ */
+export const checkTextarea = (input) => {
+  if (!check(input.value, TEXTAREA_REGEXP)) {
+    input.setCustomValidity('El máximo de palabras es 150');
+    return false;
+  }
+  input.setCustomValidity('');
+  return true;
+};
+
+/**
+ * Check email validity
+ * @returns {boolean}
+ */
+export const checkEmail = (input) => {
+  if (!check(input.value, EMAIL_REGEXP)) {
+    input.setCustomValidity('El email no es válido');
+    return false;
+  }
+  input.setCustomValidity('');
+  return true;
+};
+
+/**
+ * Check simple text validity
+ * @returns {boolean}
+ */
+export const checkText = input => input.checkValidity();
