@@ -151,3 +151,16 @@ export const checkEmail = (input) => {
  * @returns {boolean}
  */
 export const checkText = input => input.checkValidity();
+
+/**
+ * Function for get user image or image default if dont have
+ * @param data
+ * @returns {string}
+ */
+export const getUserImage = (data) => {
+  let imgUrl = urlImgDefault;
+  if (data.userImage) {
+    imgUrl = data.userImage;
+  }
+  return imgUrl;
+};

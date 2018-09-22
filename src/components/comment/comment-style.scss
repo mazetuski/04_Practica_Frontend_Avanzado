@@ -5,11 +5,19 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: $general-padding;
+  padding-bottom: .5rem;
   border: 1px solid $grey;
   margin: $general-margin 0;
 
-  div{
+  & > div{
     flex: 0 0 100%;
+  }
+
+  .comment-date{
+    flex: 1;
+    color: $grey-dark;
+    text-align: right;
+    margin-bottom: 0;
   }
 
   @include for-tablet-landscape {

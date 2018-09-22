@@ -67,6 +67,7 @@ export const initializeForm = (articleId) => {
     // post new comment to database
     const formData = getFormData(inputs);
     formData['articleId'] = articleId;
+    formData['date'] = new Date();
     CommentServiceInstance.post(formData).then(() => {
       // update al comments if no errors and clear form
       updateComments(articleId);

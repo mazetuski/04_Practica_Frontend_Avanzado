@@ -1,6 +1,5 @@
 // Dependencies
-import { getFormattedDatePost } from 'utils/utils';
-import { getImageOrVideoArticle } from 'utils/utils';
+import { getFormattedDatePost, getImageOrVideoArticle, getUserImage } from 'utils/utils';
 import commentImage from 'assets/comments.png';
 
 export const createArticle = (articleData, text = true, articleClass = 'article') => {
@@ -12,7 +11,13 @@ export const createArticle = (articleData, text = true, articleClass = 'article'
   html += `<div><h4><a href="${urlDetail}">${articleData.title}</a></h4>`;
   if (text) {
     html += `<p>${articleData.text}... <a href="${urlDetail}">LEER MÁS</a></p>
-             <p class="article-footer">${articleData.author} - ${formattedDate} - <a href="${urlDetail}#comments"><img class="icon" src="${commentImage}" alt="Comentarios"></a></p>`;
+             <p class="article-footer">
+                <img src="${getUserImage(articleData)}" class="image-profile" alt="${articleData.author}" /> 
+                ${articleData.author} - ${formattedDate} - 
+                <a href="${urlDetail}#comments-wrapper">
+                  <img class="icon" src="${commentImage}" alt="Comentarios">
+                </a>
+             </p>`;
   }
   html += '</div>';
   article.innerHTML = html;

@@ -1,11 +1,8 @@
-import { urlImgDefault } from 'utils/utils';
+import { getUserImage, getFormattedDatePost } from 'utils/utils';
 
 export const createComment = (commentData) => {
   const comment = document.createElement('div');
-  let imgUrl = urlImgDefault;
-  if (commentData.userImage) {
-    imgUrl = commentData.userImage;
-  }
+  const imgUrl = getUserImage(commentData);
   comment.innerHTML = `
     <div class="comment">
         <div class="profile-wrapper">
@@ -15,6 +12,7 @@ export const createComment = (commentData) => {
         <div>
             <p>${commentData.comment}</p>
         </div>
+        <p class="comment-date">${getFormattedDatePost(commentData.date)}</p>
     </div>`;
 
   return comment;

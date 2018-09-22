@@ -20,7 +20,6 @@ class APIService {
         urlGet += `?_limit=${limit}&_page=${skip}`;
         symbol = '&';
       }
-      console.log(urlGet);
       if (sortField) {
         urlGet += `${symbol}_sort=${sortField}&_order=${order}`;
       }

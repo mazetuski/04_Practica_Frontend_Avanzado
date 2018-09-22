@@ -18,7 +18,8 @@ export const updateComments = async (idArticle) => {
   CommentServiceInstance.getCommentByArticle(idArticle, 5).then((commentsData) => {
     appendComponents(commentsWrapper,
       commentsData.map(commentData => createComment(commentData)));
-  }).catch(() => {
+  }).catch((err) => {
+    console.log(err);
     commentsWrapper.innerHTML = 'No se ha podido contactar con el servidor';
   });
 };

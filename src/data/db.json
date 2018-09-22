@@ -9,6 +9,7 @@
       "imageTablet": "https://i.blogs.es/d3c407/emmy-2018-cronica-mejores-momentos-ganadores-espinof/1024_2000.jpg",
       "imageMobile": "https://i.blogs.es/f034df/hey/500_333.jpg",
       "author": "Albertini",
+      "userImage": "http://www.postavy.cz/foto/beth-smith-foto.jpg",
       "createdAt": "2018-09-19T03:24:00"
     },
     {
@@ -20,6 +21,7 @@
       "imageTablet": "https://i.blogs.es/5f180a/captura-de-pantalla-2018-09-17-a-las-17.52.06/1024_2000.jpg",
       "imageMobile": "https://i.blogs.es/5f180a/captura-de-pantalla-2018-09-17-a-las-17.52.06/500_333.jpg",
       "author": "Cristian Rus",
+      "userImage": "https://imgc.allpostersimages.com/img/print/posters/rick-y-morty_a-G-15375828-0.jpg",
       "createdAt": "2018-09-19T02:30:00"
     },
     {
@@ -29,6 +31,7 @@
       "desc": "<p>Realidad virtual y realidad aumentada son tecnologías que ya han calado en la opinión pública de un modo generalizado.</p> <p>En cambio, la realidad mixta, que combina las dos anteriores, empieza a ser conocida a medida que evolucionan los métodos para crear entornos inmersivos que proporcionan experiencias lúdicas, educativas o profesionales.</p> <p>Las tecnologías inmersivas son el caso general de las realidades aumentada, virtual y mixta (RA, RV y RM, respectivamente) y engloban a otras como la interactividad háptica, las representaciones holográficas, la realidad disminuida o la teleinmersión.</p> <p>En todos los casos, se trata de reforzar una experiencia digital con elementos adicionales, generalmente sensoriales, para que nos sintamos inmersos en dicha experiencia. Los avances en campos como la conectividad, la potencia de procesamiento o la ergonomía irán favoreciendo su integración de un modo transparente y fluido en las experiencias que se quieren recrear.</p> <p>Un ejemplo son los hologramas: en teoría, son la solución perfecta para recrear entornos inmersivos, pero la tecnología no está lista para ello. Igual que 5G, a punto de empezar su despliegue, permitirá llevar las experiencias inmersivas a nuestro día a día gracias a la baja latencia de las conexiones y a su elevado ancho de banda.</p> <p>Por su parte, las soluciones hápticas ponen a nuestro alcance una experiencia sensorial a partir de una recreación virtual: al tocar un piano virtual, la tecnología háptica recrea la sensación táctil de las teclas. En este caso, las complicaciones provienen de la ergonomía en el diseño de elementos como guantes con actuadores mecánicos.</p>",
       "video": "https://www.youtube.com/embed/N9eRtXBVZGU",
       "author": "Espacio U-Tad",
+      "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw4OBCSwxtka4cYzmBrZHmxedk73vRdVIW1hEUSiOqolnKaGlR",
       "createdAt": "2018-09-19T01:38:00"
     },
     {
@@ -51,13 +54,14 @@
       "imageTablet": "https://img.blogs.es/orangesports/wp-content/uploads/2018/09/43664562495_2558dc7dfa_k-1600x900.jpg",
       "imageMobile": "https://i.blogs.es/cc9f6c/champions/500_333.jpg",
       "author": "Rafa",
+      "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi3m6i69fkH7Uh0snC7nv3FnDXsJknOo3RA1B_Y-_LJfm2BFeDaQ",
       "createdAt": "2018-09-18T15:20:00"
     },
     {
       "id": 6,
       "title": "Nunca hemos llegado a tener procesadores de terahercios, y estas son las razones ",
       "text": "La fibra óptica podría ser una de las tecnologías implicadas en la búsqueda de ese particular procesador de 1 THz, pero atentos, porque también el grafeno quiere revolucionar este campo.",
-      "desc": "¿Sabes lo que es mejor que un gigahercio? Un terahercio. El problema, claro, es que conseguir que un procesador logre funcionar a esa frecuencia de reloj no es ni mucho menos trivial. La Ley de Moore se nos queda corta ante una CPU de tal magnitud, y de hecho apenas sí hemos llegado a contar con procesadores de 5 GHz y llevamos años anclados en esos límites. Así pues, ¿es la CPU a un terahercio posible? Lo cierto es que sí. Durante cierto tiempo la batalla por los 'megahercios' dominó la industria del PC. En aquellos tiempos AMD incluso logró ganarle a Intel en la particular carrera por llegar a ofrecer una CPU a 1 GHz, y las mejoras en este ámbito eran constantes. ",
+      "desc": "<p>¿Sabes lo que es mejor que un gigahercio? Un terahercio. El problema, claro, es que conseguir que un procesador logre funcionar a esa frecuencia de reloj no es ni mucho menos trivial.</p> <p>La Ley de Moore se nos queda corta ante una CPU de tal magnitud, y de hecho apenas sí hemos llegado a contar con procesadores de 5 GHz y llevamos años anclados en esos límites.</p> <p>Así pues, ¿es la CPU a un terahercio posible? Lo cierto es que sí. Durante cierto tiempo la batalla por los 'megahercios' dominó la industria del PC.</p> <p>En aquellos tiempos AMD incluso logró ganarle a Intel en la particular carrera por llegar a ofrecer una CPU a 1 GHz, y las mejoras en este ámbito eran constantes.</p> ",
       "imageLaptop": "https://i.blogs.es/8c1fec/cpu/1366_2000.jpg",
       "imageTablet": "https://i.blogs.es/8c1fec/cpu/1024_2000.jpg",
       "imageMobile": "https://i.blogs.es/8c1fec/cpu/500_333.jpg",
@@ -68,44 +72,48 @@
       "id": 7,
       "title": "Los datos guardados en la nube de Nintendo Switch Online serán eliminados si cancelamos la suscripción",
       "text": "Detalles que no se dieron a conocer durante la presentación y que es bueno tener en cuenta para decidir si nos suscribimos o no.",
-      "desc": "Tras el Nintendo Direct de ayer, donde se dieron nuevos detalles del Nintendo Switch Online, hoy la compañía actualizó su web de soporte y sección de FAQ para aclarar algunas cuestiones que no se mostraron durante la presentación, todo de cara a su lanzamiento el próximo 18 de septiembre. Lo primero que se destaca es que Nintendo aclara que todos los datos almacenados en la nube sólo estarán disponibles 'siempre que tengamos una membresía activa de Nintendo Switch Online'. Si cancelamos dicha suscripción, Nintendo 'no podrá garantizar que los datos guardados en la nube se conservarán tras finalizar la membresía. A modo de comparación, el servicio de guardado de Sony en Playstation nos ofrece un periodo de seis meses después de cancelar una cuenta de pago de PlayStation Plus. Mientras que en el caso e Xbox Live, estos datos se guardan en la nube de forma gratuita sin un limite de tiempo establecido.",
+      "desc": "<p>Tras el Nintendo Direct de ayer, donde se dieron nuevos detalles del Nintendo Switch Online, hoy la compañía actualizó su web de soporte y sección de FAQ para aclarar algunas cuestiones que no se mostraron durante la presentación, todo de cara a su lanzamiento el próximo 18 de septiembre.</p> <p>Lo primero que se destaca es que Nintendo aclara que todos los datos almacenados en la nube sólo estarán disponibles 'siempre que tengamos una membresía activa de Nintendo Switch Online'.</p> <p>Si cancelamos dicha suscripción, Nintendo 'no podrá garantizar que los datos guardados en la nube se conservarán tras finalizar la membresía.</p> <p>A modo de comparación, el servicio de guardado de Sony en Playstation nos ofrece un periodo de seis meses después de cancelar una cuenta de pago de PlayStation Plus.</p> <p>Mientras que en el caso e Xbox Live, estos datos se guardan en la nube de forma gratuita sin un limite de tiempo establecido.</p>",
       "imageLaptop": "https://i.blogs.es/62c456/nintendo-online-cloud/1366_2000.jpg",
       "imageTablet": "https://i.blogs.es/62c456/nintendo-online-cloud/1024_2000.jpg",
       "imageMobile": "https://i.blogs.es/62c456/nintendo-online-cloud/500_333.jpg",
       "author": "Raúl",
+      "userImage": "https://imgc.allpostersimages.com/img/print/posters/rick-y-morty_a-G-15375828-0.jpg",
       "createdAt": "2018-09-16T13:25:00"
     },
     {
       "id": 8,
       "title": "Cómo se está desplegando la realidad aumentada por las redes sociales y para qué te sirve",
       "text": "Se habla mucho de la realidad virtual como la panacea en campos como el ocio, la medicina o la industria. Pero la realidad aumentada es en muchos casos más útil y más cotidiana, si se prefiere, que la virtual. Es más fácil de",
-      "desc": "Se habla mucho de la realidad virtual como la panacea en campos como el ocio, la medicina o la industria. Pero la realidad aumentada es en muchos casos más útil y más cotidiana, si se prefiere, que la virtual. Es más fácil de implementar y se añade de un modo elegante y natural sobre la ‘realidad absoluta’ que percibimos a través de nuestros sentidos. Precisamente porque es una forma de realidad menos invasiva, puede que ya la estemos usando o disfrutando de sus ventajas y beneficios sin que nos hayamos percatado de ello de manera consciente. En muchas redes sociales, ya se emplea de un modo eminentemente lúdico, aunque también con un carácter informativo nada desdeñable. Posiblemente el ‘experimento’ más notable sobre realidad aumentada que se ha llevado a cabo hasta la fecha haya sido el de Pokémon Go. Por encima de Snapchat incluso. Pokémon Go supuso llevar la realidad aumentada a una audiencia enorme que la adoptó como una planta recibe agua en agosto tras días sin regar. Y se hizo de un modo tan natural e intuitivo que muchos de los jugadores de Pokémon Go probablemente no asociasen la realidad aumentada con el juego.",
+      "desc": "<p>Se habla mucho de la realidad virtual como la panacea en campos como el ocio, la medicina o la industria.</p> <p>Pero la realidad aumentada es en muchos casos más útil y más cotidiana, si se prefiere, que la virtual. Es más fácil de implementar y se añade de un modo elegante y natural sobre la ‘realidad absoluta’ que percibimos a través de nuestros sentidos.</p> <p>Precisamente porque es una forma de realidad menos invasiva, puede que ya la estemos usando o disfrutando de sus ventajas y beneficios sin que nos hayamos percatado de ello de manera consciente.</p> <p>En muchas redes sociales, ya se emplea de un modo eminentemente lúdico, aunque también con un carácter informativo nada desdeñable. Posiblemente el ‘experimento’ más notable sobre realidad aumentada que se ha llevado a cabo hasta la fecha haya sido el de Pokémon Go. Por encima de Snapchat incluso.</p> <p>Pokémon Go supuso llevar la realidad aumentada a una audiencia enorme que la adoptó como una planta recibe agua en agosto tras días sin regar.</p> <p>Y se hizo de un modo tan natural e intuitivo que muchos de los jugadores de Pokémon Go probablemente no asociasen la realidad aumentada con el juego.</p>",
       "imageLaptop": "https://img.blogs.es/honor/wp-content/uploads/2018/09/Abre_realidadaumentada-1080x675.jpg",
       "imageTablet": "https://img.blogs.es/honor/wp-content/uploads/2018/09/Abre_realidadaumentada-1080x675.jpg",
       "imageMobile": "https://i.blogs.es/3388f9/abre_ar/500_333.jpg",
       "author": "Carlos",
+      "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCGCZfParqZAckkzVhZDoKGosoGf5Xp2F0gJJDxL-oaH1Y8Tbk",
       "createdAt": "2018-09-14T14:40:00"
     },
     {
       "id": 9,
       "title": "Nintendo revive el viejo mando de NES: sólo que ahora es inalámbrico y compatible con la Switch",
       "text": "Nintendo sigue apostando por la nostalgia, y vaya que le ha funcionado. Hoy durante el Nintendo Direct que había sido pospuesto tras las inundaciones en Japón, la compañía anunció los nuevos juegos que llegarán a sus consolas, donde se incluyen nuevas versiones de",
-      "desc": "Nintendo sigue apostando por la nostalgia, y vaya que le ha funcionado. Hoy durante el Nintendo Direct que había sido pospuesto tras las inundaciones en Japón, la compañía anunció los nuevos juegos que llegarán a sus consolas, donde se incluyen nuevas versiones de  'New Super Mario Bros. U Deluxe', 'Luigi's Mansion 3', 'Animal Crosing', una edición especial de Switch con diseño de 'Super Smash Bros. Ultimate' y una avalancha de juegos de 'Final Fantasy'. Pero de lo más destacado, fuera de los juegos, fue el lanzamiento del mando del NES, sólo que ahora en formato inalámbrico para la Switch. Nintendo quiere que todos se suscriban a su servicio online, que llegará el próximo 18 de septiembre, y para ello han soltado noticias a cuentagotas para tratar de mantener el misterio. Hoy, siguiendo con esa estrategia, confirmó que su servicio en línea tendrá más sorpresas que se anunciarán posteriormente, dejando la puerta abierta para mucho más. ",
+      "desc": "<p>Nintendo sigue apostando por la nostalgia, y vaya que le ha funcionado. Hoy durante el Nintendo Direct que había sido pospuesto tras las inundaciones en Japón, la compañía anunció los nuevos juegos que llegarán a sus consolas, donde se incluyen nuevas versiones de 'New Super Mario Bros. U Deluxe', 'Luigi's Mansion 3', 'Animal Crosing', una edición especial de Switch con diseño de 'Super Smash Bros. Ultimate' y una avalancha de juegos de 'Final Fantasy'.</p> <p>Pero de lo más destacado, fuera de los juegos, fue el lanzamiento del mando del NES, sólo que ahora en formato inalámbrico para la Switch.</p> <p>Nintendo quiere que todos se suscriban a su servicio online, que llegará el próximo 18 de septiembre, y para ello han soltado noticias a cuentagotas para tratar de mantener el misterio.</p> <p>Hoy, siguiendo con esa estrategia, confirmó que su servicio en línea tendrá más sorpresas que se anunciarán posteriormente, dejando la puerta abierta para mucho más.</p>",
       "imageLaptop": "https://i.blogs.es/afa15b/wireless-nes-controller/1366_2000.jpg",
       "imageTablet": "https://i.blogs.es/afa15b/wireless-nes-controller/1024_2000.jpg",
       "imageMobile": "https://i.blogs.es/afa15b/wireless-nes-controller/500_333.jpg",
       "author": "Raúl",
+      "userImage": "https://imgc.allpostersimages.com/img/print/posters/rick-y-morty_a-G-15375828-0.jpg",
       "createdAt": "2018-09-14T12:24:00"
     },
     {
       "id": 10,
       "title": "Ni dos ni tres cámaras traseras: hasta cinco cámaras llevará el Nokia 9 según las filtraciones ",
       "text": "Puede que Nokia y Zeiss estén pensando en llevar su alianza al punto más alto incluyendo hasta cinco lentes en la parte trasera del Nokia 9. Ya son varias las filtraciones que apuntan a esta llamativa característica. ",
-      "desc": "Una cámara nos parece poco (aunque no tiene por qué), dos cámaras parecen el pasado viendo móviles de tres traseras y al parecer lo próximo son cinco cámaras. No cinco en total como apunta a ser la suma de las que llevará el LG V40 según ciertas informaciones, sino las cinco cámaras traseras del Nokia 9, según ya numerosas filtraciones. De este móvil se lleva hablando mucho, quizás esperando un golpe en la mesa que la nueva Nokia parece que aún no ha podido dar con un buque insignia. Un Nokia 8 Sirocco que suponía una diferencia al respecto de los demás Nokia, pero que parece la antesala de un Nokia 9 que batiría récord en cámaras traseras e incorporaría características bastante novedosas como un lector de huellas bajo la pantalla. La enésima filtración que apunta a la quíntuple cámara trasera es la de Gizmochina, que muestra ese diseño en forma de racimo o panal en el que se encajan las cinco cámaras, el flash y lo que podría ser algún tipo de sensor. No hay información sobre los sensores o las lentes, de hecho otras informaciones anteriores sobre componentes apuntaban a una doble lente de 12 y 13 megapíxeles, así que habrá que ver en qué queda esto de confirmarse, y sobre todo qué propiedades puede añadir a la fotografía móvil.",
+      "desc": "<p>Una cámara nos parece poco (aunque no tiene por qué), dos cámaras parecen el pasado viendo móviles de tres traseras y al parecer lo próximo son cinco cámaras.</p> <p>No cinco en total como apunta a ser la suma de las que llevará el LG V40 según ciertas informaciones, sino las cinco cámaras traseras del Nokia 9, según ya numerosas filtraciones.</p> <p>De este móvil se lleva hablando mucho, quizás esperando un golpe en la mesa que la nueva Nokia parece que aún no ha podido dar con un buque insignia.</p> <p>Un Nokia 8 Sirocco que suponía una diferencia al respecto de los demás Nokia, pero que parece la antesala de un Nokia 9 que batiría récord en cámaras traseras e incorporaría características bastante novedosas como un lector de huellas bajo la pantalla.</p> <p>La enésima filtración que apunta a la quíntuple cámara trasera es la de Gizmochina, que muestra ese diseño en forma de racimo o panal en el que se encajan las cinco cámaras, el flash y lo que podría ser algún tipo de sensor.</p> <p>No hay información sobre los sensores o las lentes, de hecho otras informaciones anteriores sobre componentes apuntaban a una doble lente de 12 y 13 megapíxeles, así que habrá que ver en qué queda esto de confirmarse, y sobre todo qué propiedades puede añadir a la fotografía móvil.</p>",
       "imageLaptop": "https://i.blogs.es/31dde4/nokia-01/1366_2000.jpg",
       "imageTablet": "https://i.blogs.es/31dde4/nokia-01/1024_2000.jpg",
       "imageMobile": "https://i.blogs.es/31dde4/nokia-01/500_333.jpg",
       "author": "Anna",
+      "userImage": "https://imgc.allpostersimages.com/img/print/posters/rick-y-morty_a-G-15375828-0.jpg",
       "createdAt": "2018-09-10T02:02:00"
     }
   ],
@@ -138,14 +146,6 @@
       "email": "",
       "userImage": "https://vignette.wikia.nocookie.net/deathbattlefanon/images/0/08/2816096-thumbnail_1992608045960713568.jpg/revision/latest?cb=20170828123523",
       "date": "2018-09-12T06:02:00"
-    },
-    {
-      "author": "Miguel",
-      "lastname": "Zamora",
-      "email": "test@test.com",
-      "comment": "Yo creo que se lo merecen porque mueren todos en la serie",
-      "articleId": "1",
-      "id": 4
     }
   ]
 }

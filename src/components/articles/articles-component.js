@@ -17,7 +17,7 @@ export const updateArticles = (popular = false) => {
     return;
   }
 
-  ArticleServiceInstance.getArticles(5).then((articlesJSON) => {
+  ArticleServiceInstance.getArticles(null).then((articlesJSON) => {
     appendComponents(articleWrapper,
       articlesJSON.map(dataJSON => createArticle(dataJSON)));
   });
