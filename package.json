@@ -8,7 +8,7 @@
     "build": "webpack --mode=production",
     "start:dev": "webpack-dev-server --mode=development",
     "start": "webpack-dev-server --mode=production",
-    "start:db": "json-server src/data/db.json -p 3001",
+    "start:db": "json-server src/data/db.json -p 3000",
     "eslint": "eslint"
   },
   "author": "",
