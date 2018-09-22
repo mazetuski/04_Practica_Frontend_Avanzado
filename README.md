@@ -4,9 +4,14 @@
 
 ```
 npm install
-npm run build
 ```
 - Copy .env.example as .env and add your personal parameters
+
+- Then run build command
+
+```
+npm run build
+```
 
 - You need to deploy json-server with the database
 
