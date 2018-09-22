@@ -4,7 +4,7 @@
 
 ```
 npm install
-npm build
+npm run build
 ```
 
 - You need to deploy json-server with the database

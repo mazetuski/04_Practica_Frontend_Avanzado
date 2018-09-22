@@ -1,4 +1,4 @@
-import { getImageOrVideoArticle, getUserImage } from 'utils/utils';
+import { getImageOrVideoArticle, getUserImage, getFormattedDatePost } from 'utils/utils';
 
 const isLiked = id => localStorage.getItem(`article-${id}`);
 
@@ -17,7 +17,7 @@ export const updateArticle = (articleData) => {
   html += `
     <div class="user-section">
         <img src="${getUserImage(articleData)}" alt="${articleData.author}" class="image-profile">
-        <span>${articleData.author}</span>
+        <span>${articleData.author} - ${getFormattedDatePost(articleData.createdAt)}</span>
         <i class="far fa-thumbs-up like-article"></i>
     </div>
     <div>

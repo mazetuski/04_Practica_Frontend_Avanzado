@@ -58,9 +58,8 @@ header {
   }
 
   #hamburguer {
-    img {
-      width: $icon-size;
-      height: $icon-size;
+    i {
+      font-size: 1.4rem;
     }
     @include for-tablet-landscape {
       display: none;
